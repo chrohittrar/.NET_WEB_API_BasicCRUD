@@ -1,0 +1,96 @@
+# Ignore build artifacts
+[Bb]in/
+[Oo]bj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+*.userosscache
+
+# Ignore IDE-specific files
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Ignore NuGet packages and restore files
+.nuget/
+packages/
+*.nupkg
+NuGet.exe
+NuGet.Config
+
+# Ignore local development files
+*.local
+*.local.*
+
+# Ignore logs and diagnostics
+logs/
+*.log
+*.log.*
+*.pid
+*.pid.*
+
+# Ignore output files
+out/
+dist/
+publish/
+
+# Ignore Azure and Docker files
+[Dd]ocker/
+[Dd]ockerfile
+*.dockerignore
+[Aa]zure/
+*.azure*
+
+# Ignore test results
+[Tt]est[Rr]esults/
+*.trx
+
+# Ignore Visual Studio cache and settings
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore Rider cache and settings
+.idea/
+*.idea
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Node.js and npm files (if applicable)
+node_modules/
+npm-debug.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore compiled source files
+*.dll
+*.pdb
+*.exe
+*.cache
+*.ilk
+*.dll.config
+
+# Ignore Roslyn cache
+*.roslyn.json
+
+# Ignore Rider/ReSharper cache
+_ReSharper.*
+*.dotCover
+
+# Ignore SQL Server files
+*.mdf
+*.ldf
+
+# Ignore Python files (if applicable)
+__pycache__/
+*.pyc
